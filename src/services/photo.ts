@@ -1,4 +1,3 @@
-import { async } from "@firebase/util";
 import { Photo } from "../types/Photo";
 import { storage } from "../libs/firebase";
 import { ref, listAll, getDownloadURL } from "firebase/storage";
